@@ -44,18 +44,48 @@ exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-# html_theme = 'alabaster'
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-# https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
-# https://readthedocs.org/projects/icona/downloads/pdf/stable/
-# Sigasi Orange:  #EC6508 
-# Sigasi Purple:  #360E61
-# Sigasi WHite :  #F8F8F8  
-html_theme = "sphinx_rtd_theme"
-
-
 html_title = "Sigasi Studio Documentation"
+html_logo = "_static/sigasi_logo_white.png"
+# html_theme = 'alabaster'
+html_theme = "sphinx_rtd_theme"
+html_theme_options = {
+    # List of themes           : 
+    #   https://sphinx-themes.org/
+    # ReadTheDocs documentation:
+    #   https://readthedocs.org/projects/icona/downloads/pdf/stable/
+    # ReadTheDocs sample       :
+    #   https://sphinx-themes.org/sample-sites/sphinx-rtd-theme/
+    # ReadTheDocs configuration:
+    #   https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
+    # Toc options
+    "collapse_navigation": False,
+    "sticky_navigation": False,
+    "navigation_depth": -1,
+    "includehidden": True,
+    "titles_only": False,
+    # Analytical options
+    # "analytics_id": "G-XXXXXXXXXX",  #  Provided by Google in your dashboard
+    # "analytics_anonymize_ip": False,
+    # Miscellaneous options
+    "display_version": True,
+    "logo_only": True,
+    "prev_next_buttons_location": "both",
+    "style_external_links": False,
+    # Sigasi Orange:  #EC6508 
+    # Sigasi Purple:  #360E61
+    # Sigasi WHite :  #F8F8F8  
+    "style_nav_header_background": "#360E61",
+    # GitHub options
+
+    "vcs_pageview_mode": "blob",
+}
+html_context = {
+    "display_github": True,
+    # "github_user": "",
+    "github_repo": "dseynhae/SphinxDemo/",
+    "github_version": "main/",
+     "conf_py_path": "/source/",
+    "show_navbar_depth": 3,
+    "use_fullscreen_button": True,
+}
 
