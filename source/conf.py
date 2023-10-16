@@ -45,5 +45,17 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
-html_static_path = ['_static']
+# html_theme = 'alabaster'
+# The theme to use for HTML and HTML Help pages.  See the documentation for
+# a list of builtin themes.
+#
+# https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html
+# https://readthedocs.org/projects/icona/downloads/pdf/stable/
+# Sigasi Orange:  #EC6508 
+# Sigasi Purple:  #360E61
+# Sigasi WHite :  #F8F8F8  
+html_theme = "sphinx_rtd_theme"
+
+
+html_title = "Sigasi Studio Documentation"
+
