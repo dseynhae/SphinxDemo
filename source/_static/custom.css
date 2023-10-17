@@ -1,0 +1,150 @@
+h1 {
+  /* Sigasi Orange */
+  background-color: #EC6508 !important;
+  color: white !important;
+  padding: 10px !important;
+}
+
+h2 {
+  /* Sigasi Orange */
+  color: #EC6508 !important;
+  text-decoration: underline;
+  !important
+}
+
+h3 {
+  /* Sigasi Orange */
+  color: #EC6508 !important;
+  text-decoration: underline;
+  !important
+}
+
+/* override table width restrictions */
+.wy-table-responsive table td,
+.wy-table-responsive table th {
+  white-space: normal;
+}
+
+.wy-table-responsive {
+  margin-bottom: 24px;
+  max-width: 100%;
+  overflow: visible;
+}
+
+/* Font Awesome selections
+   https://fontawesome.com/v5/search?m=free
+*/
+
+div.note {
+  border: 1px solid CornFlowerBlue !important;
+}
+
+.note p.admonition-title::before {
+  /* fa-pen-square */
+  content: "\f14b" !important;
+}
+
+div.seealso {
+  border: 1px solid CornFlowerBlue !important;
+}
+
+.seealso p.admonition-title::before {
+  /* fa-eye */
+  content: "\f06e" !important;
+}
+
+div.important {
+  border: 1px solid CornFlowerBlue !important;
+}
+
+.important p.admonition-title::before {
+  /* fa-star */
+  content: "\f005" !important;
+}
+
+div.hint {
+  border: 1px solid LightSeaGreen !important;
+}
+
+.hint p.admonition-title::before {
+  /* fa-thumbs-up */
+  content: "\f164 " !important;
+}
+
+div.tip {
+  border: 1px solid LightSeaGreen !important;
+}
+
+.tip p.admonition-title::before {
+  /* fa-lightbulb */
+  content: "\f0eb " !important;
+}
+
+div.attention {
+  border: 1px solid BurlyWood !important;
+}
+
+.attention p.admonition-title::before {
+  /* fa-exclamation */
+  content: "\f12a " !important;
+}
+
+div.caution {
+  border: 1px solid BurlyWood !important;
+}
+
+.caution p.admonition-title::before {
+  /* fa-circle-exclamation */
+  content: "\f06a " !important;
+}
+
+div.warning {
+  border: 1px solid BurlyWood !important;
+}
+
+.warning p.admonition-title::before {
+  /* fa-triangle-exclamation */
+  content: "\f071 " !important;
+}
+
+div.danger {
+  border: 1px solid DarkSalmon !important;
+}
+
+.danger p.admonition-title::before {
+  /* fa-bolt */
+  content: "\f0e7 " !important;
+}
+
+div.error {
+  border: 1px solid DarkSalmon !important;
+}
+
+.error p.admonition-title::before {
+  /* fa-circle-times-circle */
+  content: "\f057" !important;
+}
+
+
+
+div.admonition-custom {
+  background-color: Silver !important;
+  color: DarkREd !important;
+  border: 1px solid Black !important;
+}
+
+/* https://www.w3schools.com/cssref/css_selectors.asp
+ * Elements with `p.admonition-title` that are
+ * a descendant of an element with `admonition-custom`
+ */
+.admonition-custom p.admonition-title {
+  background-color: Black !important;
+}
+
+/* https://fontawesome.com/v5/cheatsheet
+ */
+.admonition-custom p.admonition-title::before {
+  /* fa-coffee */
+  content: "\f0f4 " !important;
+  color: Burlywood
+}

@@ -46,6 +46,8 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 html_title = "Sigasi Studio Documentation"
 html_logo = "_static/sigasi_logo_white.png"
+html_static_path = ["_static"]
+html_css_files = ["custom.css"]
 # html_theme = 'alabaster'
 html_theme = "sphinx_rtd_theme"
 html_theme_options = {
@@ -85,7 +87,5 @@ html_context = {
     "github_repo": "dseynhae/SphinxDemo/",
     "github_version": "main/",
      "conf_py_path": "/source/",
-    "show_navbar_depth": 3,
-    "use_fullscreen_button": True,
 }
 
